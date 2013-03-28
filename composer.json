@@ -1,7 +1,7 @@
 {
     "name": "phpunit/phpunit",
     "description": "The PHP Unit Testing framework.",
-    "type": "library",
+    "type": "cakephp-plugin",
     "keywords": [
         "phpunit",
         "xunit",
@@ -35,7 +35,8 @@
         "ext-dom": "*",
         "ext-pcre": "*",
         "ext-reflection": "*",
-        "ext-spl": "*"
+        "ext-spl": "*",
+        "composer/installers": "~1.0"
     },
     "require-dev": {
         "pear-pear/pear": "1.9.4"
